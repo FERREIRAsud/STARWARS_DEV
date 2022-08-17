@@ -1,0 +1,135 @@
+@import url(tiny.css) (min-width:300px);
+@import url(small.css) (min-width:600px);
+@import url(big.css) (min-width:900px);
+
+@media screen and (max-width: 300px) {
+/* estilos */
+}
+@media screen and (max-width: 600px) {
+/* Estilos */
+}
+
+
+body {
+    width:90%;
+    margin: 0 auto;
+    min-width: 600px;
+    max-width: 2000%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    padding:0;
+}
+
+.header{
+    margin: 1%;
+    height: 1%;
+    
+}
+
+p{
+   text-align: justify;
+   text-indent: 15px; 
+   color: white;
+}
+h1{
+    text-align: justify;
+    text-indent: 15px; 
+    color: white;
+ }
+
+.content{
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.navegation{
+ position: absolute;
+ bottom: 20px;
+ left: 50%;
+ transform: translate(-50%);
+ display: flex;
+
+}
+
+.bar{
+    width: 70px;
+    height: 7px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: auto;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.bar:hover {
+    background-color: white;
+
+}
+
+input{
+    display: none;
+}
+
+.conteiner{
+    margin-top: 70px;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height:100%;
+}
+
+.slide {
+    width: 20%;
+    transition: .6s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+
+}
+
+#slides1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slides2:checked ~ .s1 {
+    margin-left: -20%;
+
+}
+#slides3:checked ~ .s1 {
+    margin-left: -40%;
+
+}
+
+#slides4:checked ~ .s1 {
+    margin-left: -60%;
+}
+.link{
+    margin-left: 85%;
+}
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+}
+  a:hover {
+    color: rgb(241, 255, 173);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+.icone_div_2{
+    max-width: auto;
+    height: 250px;
+}
+
